@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+    /* VARIABLE - COLORS */
+    --black-color: #000000;
+    --red-color: #A90909FF;
+    --blue-color: #14148C;
+    --purple-color: #a306b6;
+    /* VARIABLE - INITIALIZATION */
+    --init-zero: 0;
+    /* VARIABLE - COMMUNE */
+    --common-border-dark: 1px solid var(--black-color);
+    --common-border-red: 1px solid var(--red-color);
+    --common-border-blue: 1px solid var(--blue-color);
+    /* VARIABLE - MOBILE  */
+    --mobile-header-z-index: 4 !important;
+    --mobile-header-color:#FFFFFF;
+    --mobile-header-background-color:var(--purple-color);
+    /* VARIABLE - DESKTOP */
+}
+
+*, body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: var(--init-zero);
+    padding: var(--init-zero);
+}
