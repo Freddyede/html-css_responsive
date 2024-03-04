@@ -1,6 +1,7 @@
 @media (min-width: 1369px) {
     body {
         margin: 0;
+        background: #CCCCCC;
         padding: 0;
     }
 
@@ -93,9 +94,10 @@
                 padding-top: 10px;
                 padding-left: 10px;
                 border-radius: 5px;
-                box-shadow: 1px 1px 1px 1px #000000;
+                box-shadow: 4px 4px 4px 4px #000000;
                 font-size: 18px;
-                color: var(--purple-color)
+                color: var(--purple-color);
+                background-color: #FFFFFF;
             }
         }
 
